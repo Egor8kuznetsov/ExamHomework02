@@ -66,6 +66,7 @@ public class StepTest {
         int countCharacter = characterEpisode.length();
         lastCharacter = characterEpisode.getString(countCharacter - 1);
     }
+    
     @Тогда("^получили информацию по персонажу из последнего эпизода$")
     public void character() {
         Response data3 = given()
